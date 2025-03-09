@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 const App = () => {
   return (
     <>
-      <nav>Navbar</nav>
+      <nav>Navbar1</nav>
       <main className="min-h-screen max-w-screen-2xl mx-auto px-4 py-6">
         <Outlet />
       </main>
