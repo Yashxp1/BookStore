@@ -1,16 +1,19 @@
 import React from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <>
-      <nav>Navbar1</nav>
+    <div>
+      <Navbar />
+
       <main className="min-h-screen max-w-screen-2xl mx-auto px-4 py-6">
         <Outlet />
       </main>
-      <footer>Footer1</footer>
-    </>
+
+      <footer>Footer</footer>
+    </div>
   );
 };
 
